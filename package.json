@@ -1,0 +1,18 @@
+{
+  "name": "gitactivity",
+  "version": "1.0.0",
+  "description": "Estimate development time from git commit history",
+  "bin": {
+    "gitactivity": "./bin/gitactivity.js"
+  },
+  "scripts": {
+    "start": "node bin/gitactivity.js",
+    "test": "node --test test/sessions.test.js test/stats.test.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "simple-git": "^3.27.0"
+  }
+}
